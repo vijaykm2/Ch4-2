@@ -17,6 +17,8 @@ fn main() {
     {
         let y = &mut x;
         *y += 1;
+        let zv= &mut x;
+        *zv+=1;
     }
     println!("x = {}",x );
     let mut a = 2;
